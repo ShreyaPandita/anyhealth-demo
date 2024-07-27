@@ -3,7 +3,7 @@
     "cluster": "ecs-cluster-tripmgmtdemo",
     "loadBalancers": [
         {
-            "targetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:767397978963:targetgroup/alb-tg-tripmgmtdemo-2/df1a1bf1a885acbf",
+            "targetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:767397978963:targetgroup/alb-tg-tripmgmtdemo-1/effe2845fa7ab88d",
             "containerName": "cntr-img-tripmgmt",
             "containerPort": 8080
         }
