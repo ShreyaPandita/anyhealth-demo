@@ -46,16 +46,16 @@
           "value": "prod,swagger"
         }
       ],
-      "image": "767397978963.dkr.ecr.us-east-1.amazonaws.com/devops/tripmgmtdemo:latest",
+      "image": "767397978963.dkr.ecr.us-east-1.amazonaws.com/anyhealthdemo:latest",
       "essential": true,
-      "name": "cntr-img-tripmgmt"
+      "name": "cntr-img-anyhealth"
     }
   ],
   "requiresCompatibilities": [
     "EC2"
   ],
   "networkMode": "awsvpc",
-  "family": "task-tripmgmt-demo",
+  "family": "task-anyhealth-demo",
   "cpu": "1024",
   "memory": "2048"
 }
