@@ -1,10 +1,10 @@
  {
-    "taskDefinition": "task-tripmgmt-demo:1",
-    "cluster": "ecs-cluster-tripmgmtdemo",
+    "taskDefinition": "task-anyhealth-demo:1",
+    "cluster": "anyhealth-cluster",
     "loadBalancers": [
         {
-            "targetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:767397978963:targetgroup/alb-tg-tripmgmtdemo-1/effe2845fa7ab88d",
-            "containerName": "cntr-img-tripmgmt",
+            "targetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:767397978963:targetgroup/active-tg/0820686d73f18051",
+            "containerName": "cntr-img-anyhealth",
             "containerPort": 8080
         }
     ],
@@ -17,7 +17,7 @@
     "networkConfiguration": {
         "awsvpcConfiguration": {
             "subnets": [
-                "subnet-003f546a14cd53ce3","subnet-0fdb99a0b67f4b156"
+                "subnet-0bb8f6d51b7ce7acd","subnet-0617ae8fe49678248"
             ],
             "securityGroups": [
                 "sg-01b95e43ec305b8da","sg-0cfaa4677c564c5e2"
