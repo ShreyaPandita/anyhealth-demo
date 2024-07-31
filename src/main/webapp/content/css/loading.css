@@ -93,6 +93,7 @@
   align-items: center;
   justify-content: center;
   top: 10em;
+  background-color: #e0f7fa;
 }
 .app-loading p {
   display: block;

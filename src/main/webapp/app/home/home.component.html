@@ -4,7 +4,7 @@
   </div>
 
   <div class="col-md-9">
-    <h1 class="display-4"><span jhiTranslate="home.title">Welcome, Medicare Users!</span> (version1)</h1>
+    <h1 class="display-4"><span jhiTranslate="home.title">Welcome, Medicare Users!</span> (version2)</h1>
 
     <p class="lead" jhiTranslate="home.subtitle">This is your homepage</p>
 
@@ -14,7 +14,7 @@
           >You are logged in as user "{{ account.login }}".</span
         >
       </div>
-
+<!--
       <div class="alert alert-warning" *ngSwitchCase="false">
         <span jhiTranslate="global.messages.info.authenticated.prefix">If you want to </span>
         <a class="alert-link" (click)="login()" jhiTranslate="global.messages.info.authenticated.link">sign in</a
@@ -23,7 +23,7 @@
           password="user").</span
         >
       </div>
-
+-->
       <div class="alert alert-warning" *ngSwitchCase="false">
         <span jhiTranslate="global.messages.info.register.noaccount">You don't have an account yet?</span>&nbsp;
         <a class="alert-link" routerLink="account/register" jhiTranslate="global.messages.info.register.link">Register a new account</a>
@@ -69,7 +69,7 @@
     </ul>
 
     <p>
-      <span jhiTranslate="home.like">If you like Medicare, don't forget to give us a star on</span>
+      <span jhiTranslate="home.like">If you like Anyhealth, don't forget to give us a star on</span>
       <a href="https://github.com/jhipster/generator-jhipster" target="_blank" rel="noopener noreferrer" jhiTranslate="home.github"
         >GitHub</a
       >!
