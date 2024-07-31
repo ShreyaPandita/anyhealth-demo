@@ -134,6 +134,7 @@
   left: -8px;
   width: 24px;
   height: 10px;
+  background-color: #e0f7fa;
   background-image: url('../images/logo-jhipster.png');
   background-size: contain;
   -webkit-animation: lds-pacman-3 1s linear infinite;

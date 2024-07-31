@@ -6,7 +6,10 @@
 Bootstrap tweaks
 ===============================================================*/
 
-body,
+body {
+  /*background-color: #7fb8b3;*/
+  background-color: #e4e5e6;
+}
 h1,
 h2,
 h3,
@@ -98,7 +101,7 @@ Generic styles
 }
 
 .form-control {
-  background-color: #fff;
+  background-color: #fff ;
 }
 
 .readonly {
