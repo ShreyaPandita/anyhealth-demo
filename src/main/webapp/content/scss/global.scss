@@ -7,8 +7,7 @@ Bootstrap tweaks
 ===============================================================*/
 
 body {
-  /*background-color: #7fb8b3;*/
-  background-color: #e4e5e6;
+  background-color: $body-bg;
 }
 h1,
 h2,
@@ -110,7 +109,8 @@ Generic styles
 }
 
 .footer {
-  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  background-color: #000000; /* Changes the background color to a teal shade */
+  border-top: 1px solid rgba(0, 0, 0, 0.125); /* Keeps the same border style */
 }
 
 .hand,
